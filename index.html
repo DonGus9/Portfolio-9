@@ -14,9 +14,9 @@
         <h1>My name is Gus</h1>
         <nav>
           <ul class="nav justify-content-end">
-            <li class="nav-item"><a class="nav-link" href="#">Quem sou?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Projetos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="#banner-home">Quem sou?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#banner-contact">Contato</a></li>
           </ul>
         </nav>
       </div>
@@ -49,14 +49,32 @@
       </div>
 
     </section>
-    <section id="projects" class="banner">
+    <!-- <section id="projects" class="banner">
 
+    </section> -->
+        <section id="banner-contact" class="banner">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6" id="banner">
+                  <img src="img\undraw_web_developer_p3e5.svg" alt="img-top" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <!-- <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ut, porro illum modi blanditiis aperiam deleniti facilis earum excepturi reprehenderit tenetur voluptatem totam magnam! Modi quas eum et necessitatibus aliquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maxime id quae obcaecati, exercitationem consectetur voluptates molestias ratione sequi, velit ipsum similique, unde quis dignissimos numquam aut ipsam ipsa commodi.</p> -->
+                  <form id="contact-form" action="" method="POST">
+                  <h5>Send me a message!</h5> 
+                  <input type="text" name="contact" id="nome" placeholder="Tell me your name, please.">
+                  <input type="email" name="contact" id="email" placeholder="What about your e-mail, huh?">
+                  <!-- <input type="text-area" name="contact" id="message" placeholder="What can I help you with?"> -->
+                  <textarea name="contact" id="message" cols="55" rows="5" placeholder="What can I help you with?"></textarea>
+                  <button type="submit" class="btn btn-outline-dark">Send</button>
+                </form>
+                </div>
+              </div>
+            </div>
     </section>
-    <section id="contact">
-
-    </section>
-    <footer>
-
+    <footer class="d-flex justify-content-center align-items-center">
+      © Copyright Gus (2019) 
     </footer>
   </body>
   </html>

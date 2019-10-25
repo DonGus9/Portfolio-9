@@ -24,3 +24,35 @@ header h1{
   background-color: #8a8883;
   height: 100vh;
 }
+
+#banner-contact{
+  height:90vh;
+}
+
+footer{
+  background-color: #4a5052;
+  height: 10vh;
+  color: white;
+}
+
+#contact-form{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#contact-form input, textarea{
+  width: 30vw;
+  margin-top: 20px;
+  border-color: #4a5052;
+  border-radius: 10px;
+  padding-left: 5px;
+  resize: none;
+}
+
+#contact-form button{
+  margin-top: 10px;
+}
